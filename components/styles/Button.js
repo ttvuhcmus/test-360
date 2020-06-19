@@ -4,8 +4,8 @@ export const Button = styled.button`
   width: 15rem;
   height: 5rem;
   outline: none;
-  border: none;
-  border-radius: 20px;
+  border: 2px solid var(--primary-color);
+  border-radius: 40px;
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
@@ -15,5 +15,19 @@ export const Button = styled.button`
     css`
       color: white;
       background-color: var(--primary-color);
+    `};
+
+  ${(props) =>
+    props.bigSize &&
+    css`
+      width: 18rem;
+      height: 6rem;
+    `};
+
+  ${(props) =>
+    props.white &&
+    css`
+      color: var(--secondary-color);
+      background-color: white;
     `};
 `;

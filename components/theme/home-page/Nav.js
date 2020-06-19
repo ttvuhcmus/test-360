@@ -6,8 +6,8 @@ import { Container } from "../../styles/Container";
 const Nav = () => {
   return (
     <NavStyles>
-      <div className="nav">
-        <Container>
+      <div className="nav center">
+        <Container nav>
           <a href="#">
             <img src="/logo.png" alt="logo" className="nav__image" />
           </a>
@@ -19,27 +19,27 @@ const Nav = () => {
             </li>
             <li className="nav__item">
               <a href="#" className="nav__link">
-                Home
+                My Intro
               </a>
             </li>
             <li className="nav__item">
               <a href="#" className="nav__link">
-                Home
+                Services
               </a>
             </li>
             <li className="nav__item">
               <a href="#" className="nav__link">
-                Home
+                Portfolio
               </a>
             </li>
             <li className="nav__item">
               <a href="#" className="nav__link">
-                Home
+                Testimonial
               </a>
             </li>
             <li className="nav__item">
               <a href="#" className="nav__link">
-                Home
+                Blog
               </a>
             </li>
           </ul>

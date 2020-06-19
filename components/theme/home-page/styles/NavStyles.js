@@ -3,9 +3,6 @@ import styled from "styled-components";
 export const NavStyles = styled.div`
   .nav {
     height: 15rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
     &__image {
       width: 90px;

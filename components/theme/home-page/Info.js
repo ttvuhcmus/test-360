@@ -1,67 +1,73 @@
 import React from "react";
 import { InfoStyles } from "./styles/InfoStyles";
+import { Container } from "../../styles/Container";
+import { Button } from "../../styles/Button";
 
 const Info = () => {
   return (
     <InfoStyles>
-      <div class="info">
-        <ul class="info__list-icon">
-          <li class="info__icon">
-            <i class="fab fa-facebook-f"></i>
+      <div className="info">
+        <ul className="list-icon">
+          <li className="list-icon__item">
+            <i className="fab fa-facebook-f"></i>
           </li>
-          <li class="info__icon">
-            <i class="fab fa-twitter"></i>
+          <li className="list-icon__item">
+            <i className="fab fa-twitter"></i>
           </li>
-          <li class="info__icon">
-            <i class="fab fa-linkedin-in"></i>
+          <li className="list-icon__item">
+            <i className="fab fa-linkedin-in"></i>
           </li>
-          <li class="info__icon">
-            <i class="fab fa-pinterest-p"></i>
+          <li className="list-icon__item">
+            <i className="fab fa-pinterest-p"></i>
           </li>
         </ul>
-        <div class="container container--info">
-          <h2 class="info__greeting">Hi, I am</h2>
-          <h1 class="info__name">Mary Hardy</h1>
-          <h2 class="info__job">Digital Marketing Expert</h2>
-          <p class="info__intro">
+        <Container info>
+          <h2 className="info__greeting">Hi, I am</h2>
+          <h1 className="info__name">Mary Hardy</h1>
+          <h2 className="info__job">Digital Marketing Expert</h2>
+          <p className="info__intro">
             Shot what able cold new the see hold. Friendly as an betrayed
             formerly <br />
             he. Morning because as to society behaved moments
           </p>
-          <div class="info__list-button">
-            <button class="btn btn--orange btn--big">Download CV</button>
-            <button class="btn btn--white-1 btn--big">Contact Me</button>
+          <div className="info__button">
+            <Button primary bigSize>
+              Download CV
+            </Button>
+            <Button white bigSize>
+              Contact Me
+            </Button>
           </div>
-        </div>
-        <div class="info__experience">
-          <div class="experience">
-            <div class="experience__icon">
-              {/* <!-- <i class="fas fa-medal"></i> --> */}
+        </Container>
+        <ul className="list-experience">
+          <li className="list-experience__item center">
+            <div className="list-experience__icon center">
+              <i className="fas fa-medal"></i>
             </div>
-            <div class="experience__content">
-              <div class="experience__title">8 Years Job</div>
-              <div class="experience__explain">Experience</div>
+            <div className="list-experience__content">
+              <div className="list-experience__title">8 Years Job</div>
+              <div className="list-experience__explain">Experience</div>
             </div>
-          </div>
-          <div class="experience">
-            <div class="experience__icon">
-              {/* <!-- <i class="fas fa-clipboard-list"></i> --> */}
+          </li>
+          <li className="list-experience__item center">
+            <div className="list-experience__icon center">
+              <i className="fas fa-clipboard-list"></i>
             </div>
-            <div class="experience__content">
-              <div class="experience__title">500+ Projects</div>
-              <div class="experience__explain">Complete</div>
+            <div className="list-experience__content">
+              <div className="list-experience__title">8 Years Job</div>
+              <div className="list-experience__explain">Experience</div>
             </div>
-          </div>
-          <div class="experience">
-            <div class="experience__icon">
-              {/* <!-- <i class="fas fa-headset"></i> --> */}
+          </li>
+          <li className="list-experience__item center">
+            <div className="list-experience__icon center">
+              <i className="fas fa-headset"></i>
             </div>
-            <div class="experience__content">
-              <div class="experience__title">Support</div>
-              <div class="experience__explain">Online 24/7</div>
+            <div className="list-experience__content">
+              <div className="list-experience__title">8 Years Job</div>
+              <div className="list-experience__explain">Experience</div>
             </div>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </InfoStyles>
   );
