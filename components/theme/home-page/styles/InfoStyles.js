@@ -6,7 +6,7 @@ export const InfoStyles = styled.div`
     background-image: linear-gradient(
       to bottom right,
       var(--light-color),
-      var(--light-gray-color)
+      var(--gray-color)
     );
     position: relative;
     display: flex;
@@ -67,7 +67,7 @@ export const InfoStyles = styled.div`
     border-radius: 100px;
     width: 111rem;
     height: 20rem;
-    box-shadow: -5px -5px 20px 15px var(--light-gray-color);
+    box-shadow: -5px -5px 20px 15px var(--gray-color);
     background-color: white;
     display: flex;
     justify-content: space-around;
