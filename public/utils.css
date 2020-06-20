@@ -10,6 +10,7 @@ html {
   --light-color: #fff;
   --gray-color: #e5e5e7;
   --light-gray-color: #f1f4fb;
+  --opacity-primary-color: rgba(255, 148, 66, 0.8);
 }
 
 .center {

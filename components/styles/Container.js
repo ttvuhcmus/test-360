@@ -25,4 +25,12 @@ export const Container = styled.div`
       align-items: center;
       flex-direction: column;
     `}
+    
+  ${(props) =>
+    props.portfolio &&
+    css`
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    `}
 `;
