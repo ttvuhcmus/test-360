@@ -30,4 +30,11 @@ export const Button = styled.button`
       color: var(--secondary-color);
       background-color: var(--light-color);
     `};
+
+  ${(props) =>
+    props.whitePrimary &&
+    css`
+      color: var(--primary-color);
+      background-color: var(--light-color);
+    `};
 `;

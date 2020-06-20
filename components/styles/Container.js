@@ -33,4 +33,27 @@ export const Container = styled.div`
       align-items: center;
       flex-direction: column;
     `}
+
+  ${(props) =>
+    props.banner &&
+    css`
+      justify-content: center;
+      flex-direction: column;
+    `}
+
+  ${(props) =>
+    props.blog &&
+    css`
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    `}
+
+  ${(props) =>
+    props.footer &&
+    css`
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    `}
 `;
