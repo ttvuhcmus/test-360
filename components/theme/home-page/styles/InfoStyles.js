@@ -3,7 +3,11 @@ import styled from "styled-components";
 export const InfoStyles = styled.div`
   .info {
     height: 100rem;
-    background-image: linear-gradient(to bottom right, #fff, #e5e5e7);
+    background-image: linear-gradient(
+      to bottom right,
+      var(--light-color),
+      var(--light-gray-color)
+    );
     position: relative;
     display: flex;
     align-items: center;
@@ -44,11 +48,14 @@ export const InfoStyles = styled.div`
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    color: var(--secondary-color);
 
     &__item {
-      font-size: 3rem;
       padding: 2rem;
+    }
+
+    &__link {
+      color: var(--secondary-color);
+      font-size: 3rem;
     }
   }
 
@@ -60,7 +67,7 @@ export const InfoStyles = styled.div`
     border-radius: 100px;
     width: 111rem;
     height: 20rem;
-    box-shadow: -10px -10px 20px 5px #e5e5e7;
+    box-shadow: -5px -5px 20px 15px var(--light-gray-color);
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -71,8 +78,8 @@ export const InfoStyles = styled.div`
       width: 33.33%;
 
       &:nth-child(2) {
-        border-left: 1px solid;
-        border-right: 1px solid;
+        border-left: 1px solid var(--secondary-color);
+        border-right: 1px solid var(--secondary-color);
       }
     }
 
@@ -90,16 +97,16 @@ export const InfoStyles = styled.div`
     }
 
     &__title {
-      font-size: 3rem;
-      color: var(--secondary-color);
-      font-weight: bold;
+      font-size: 2.5rem;
+      color: var(-secondary-color);
+      font-weight: 800;
       margin-bottom: 0.5rem;
     }
 
     &__explain {
       font-size: 2rem;
       color: var(--primary-color);
-      font-weight: bold;
+      font-weight: 500;
     }
   }
 `;

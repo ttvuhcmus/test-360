@@ -7,6 +7,8 @@ html {
 :root {
   --primary-color: #ff9442;
   --secondary-color: #0d215b;
+  --light-color: #fff;
+  --light-gray-color: #e5e5e7;
 }
 
 .center {

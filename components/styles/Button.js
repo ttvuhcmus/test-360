@@ -13,7 +13,7 @@ export const Button = styled.button`
   ${(props) =>
     props.primary &&
     css`
-      color: white;
+      color: var(--light-color);
       background-color: var(--primary-color);
     `};
 
@@ -28,6 +28,6 @@ export const Button = styled.button`
     props.white &&
     css`
       color: var(--secondary-color);
-      background-color: white;
+      background-color: var(--light-color);
     `};
 `;

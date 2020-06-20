@@ -9,16 +9,24 @@ const Info = () => {
       <div className="info">
         <ul className="list-icon">
           <li className="list-icon__item">
-            <i className="fab fa-facebook-f"></i>
+            <a href="" className="list-icon__link">
+              <i className="fab fa-facebook-f"></i>
+            </a>
           </li>
           <li className="list-icon__item">
-            <i className="fab fa-twitter"></i>
+            <a href="" className="list-icon__link">
+              <i className="fab fa-twitter"></i>
+            </a>
           </li>
           <li className="list-icon__item">
-            <i className="fab fa-linkedin-in"></i>
+            <a href="" className="list-icon__link">
+              <i className="fab fa-linkedin-in"></i>
+            </a>
           </li>
           <li className="list-icon__item">
-            <i className="fab fa-pinterest-p"></i>
+            <a href="" className="list-icon__link">
+              <i className="fab fa-pinterest-p"></i>
+            </a>
           </li>
         </ul>
         <Container info>
