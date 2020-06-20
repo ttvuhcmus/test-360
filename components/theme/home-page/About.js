@@ -1,6 +1,7 @@
 import React from "react";
 import { AboutStyles } from "./styles/AboutStyles";
 import { Container } from "../../styles/Container";
+import Heading from "./shared/Heading";
 
 const About = () => {
   return (
@@ -16,9 +17,11 @@ const About = () => {
           </div>
           <div className="about-content">
             <div className="heading">
-              <h3 className="heading__intro">My Intro</h3>
-              <h2 className="heading__title">About Me</h2>
-              <p className="heading__text">
+              <Heading text="My Intro" title="About Me"></Heading>
+
+              {/* <h3 className="heading__intro">My Intro</h3>
+              <h2 className="heading__title">About Me</h2> */}
+              <p className="heading__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
                 architecto quia maiores sint delectus voluptates molestias
                 necessitatibus culpa voluptatibus ipsa commodi consequuntur

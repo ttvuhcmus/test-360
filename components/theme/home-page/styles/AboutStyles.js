@@ -47,19 +47,7 @@ export const AboutStyles = styled.div`
     justify-content: center;
 
     .heading {
-      &__intro {
-        color: var(--primary-color);
-        font-size: 3rem;
-      }
-
-      &__title {
-        color: var(--secondary-color);
-        font-size: 5rem;
-        font-weight: 800;
-        margin: 2rem 0;
-      }
-
-      &__text {
+      &__description {
         font-size: 2rem;
         font-weight: 300;
       }
