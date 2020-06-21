@@ -25,6 +25,18 @@ export const Container = styled.div`
       align-items: center;
       flex-direction: column;
     `}
+
+  ${(props) =>
+    props.qualification &&
+    css`
+      flex-direction: column;
+    `}
+
+  ${(props) =>
+    props.specialized &&
+    css`
+      flex-direction: column;
+    `}
     
   ${(props) =>
     props.portfolio &&
