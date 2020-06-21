@@ -50,6 +50,12 @@ export const Container = styled.div`
     `}
 
   ${(props) =>
+    props.contact &&
+    css`
+      flex-direction: column;
+    `}
+
+  ${(props) =>
     props.footer &&
     css`
       justify-content: center;

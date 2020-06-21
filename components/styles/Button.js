@@ -37,4 +37,11 @@ export const Button = styled.button`
       color: var(--primary-color);
       background-color: var(--light-color);
     `};
+
+  ${(props) =>
+    props.maxSize &&
+    css`
+      width: 22rem;
+      height: 6rem;
+    `};
 `;
