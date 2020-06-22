@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <NavStyles>
       <div className="nav center">
-        <Container nav>
+        <Container center>
           <a href="#">
             <img src="/logo.png" alt="logo" className="nav__image" />
           </a>

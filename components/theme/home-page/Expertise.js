@@ -8,7 +8,7 @@ const Expertise = () => {
   return (
     <ExpertiseStyles>
       <div className="expertise center">
-        <Container expertise>
+        <Container center column>
           <Heading
             text="Why Choose Me"
             title="My Expertise Area"

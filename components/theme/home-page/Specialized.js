@@ -7,7 +7,7 @@ const Specialized = () => {
   return (
     <SpecializedStyles>
       <div className="specialized">
-        <Container specialized>
+        <Container column>
           <Heading text="Specialized In" title="What I Offer" center />
           <ul className="specialized__list">
             <li className="specialized__item">

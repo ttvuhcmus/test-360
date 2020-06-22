@@ -8,7 +8,7 @@ const Blog = () => {
   return (
     <BlogStyles>
       <div className="blog">
-        <Container blog>
+        <Container center column>
           <Heading text="Blog" title="Latest Updates" center></Heading>
           <ul className="blog__list">
             <Post

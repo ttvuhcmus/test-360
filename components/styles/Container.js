@@ -6,72 +6,15 @@ export const Container = styled.div`
   display: flex;
 
   ${(props) =>
-    props.nav &&
+    props.center &&
     css`
       justify-content: center;
       align-items: center;
     `}
 
   ${(props) =>
-    props.info &&
+    props.column &&
     css`
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.expertise &&
-    css`
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.qualification &&
-    css`
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.specialized &&
-    css`
-      flex-direction: column;
-    `}
-    
-  ${(props) =>
-    props.portfolio &&
-    css`
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.banner &&
-    css`
-      justify-content: center;
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.blog &&
-    css`
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.contact &&
-    css`
-      flex-direction: column;
-    `}
-
-  ${(props) =>
-    props.footer &&
-    css`
-      justify-content: center;
-      align-items: center;
       flex-direction: column;
     `}
 `;

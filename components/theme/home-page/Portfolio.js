@@ -9,7 +9,7 @@ const Portfolio = () => {
   return (
     <PortfolioStyles>
       <div className="portfolio center">
-        <Container portfolio>
+        <Container center column>
           <Heading text="My Portfolio" title="Recent Works" center></Heading>
 
           <ul className="list-menu">

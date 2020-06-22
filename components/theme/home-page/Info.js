@@ -29,7 +29,7 @@ const Info = () => {
             </a>
           </li>
         </ul>
-        <Container info>
+        <Container column>
           <h2 className="info__greeting">Hi, I am</h2>
           <h1 className="info__name">Mary Hardy</h1>
           <h2 className="info__job">Digital Marketing Expert</h2>

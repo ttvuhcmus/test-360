@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <FooterStyles>
       <div className="footer">
-        <Container footer>
+        <Container center column>
           <img src="/logo.png" alt="logo" className="footer__image" />
           <p className="footer__text">
             Extremely we promotion remainder eagerness enjoyment an. Ham her

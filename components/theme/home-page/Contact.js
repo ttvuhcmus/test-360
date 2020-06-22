@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <ContactStyles>
       <div className="contact">
-        <Container contact>
+        <Container column>
           <div className="contact__heading">
             <Heading text="Contact Me" title="Get in Touch" center />
           </div>
