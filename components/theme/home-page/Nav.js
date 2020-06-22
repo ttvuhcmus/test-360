@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="nav center">
         <Container center>
           <a href="#">
-            <img src="/logo.png" alt="logo" className="nav__image" />
+            <img src="/img/logo.png" alt="logo" className="nav__image" />
           </a>
           <ul className="nav__list">
             <li className="nav__item">

@@ -5,7 +5,7 @@ const Post = ({ src, date, text }) => {
   return (
     <PostStyles>
       <div className="post">
-        <img src={"/" + src} alt="picture" className="post__image" />
+        <img src={src} alt="picture" className="post__image" />
         <span className="post__date">{date}</span>
         <p className="post__text">{text}</p>
       </div>

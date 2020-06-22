@@ -36,12 +36,12 @@ const Portfolio = () => {
           </ul>
 
           <ul className="list-image">
-            <Image src="smart-watch.jpg" title="Graphic Design" />
-            <Image src="iphone.jpg" title="Mobile App" />
-            <Image src="headphone.jpg" title="Graphic Design" />
-            <Image src="macbook1.jpg" title="Web Design" />
-            <Image src="iphone11.jpg" title="Mobile App" />
-            <Image src="macbook2.jpg" title="Web Design" />
+            <Image src="/img/smart-watch.jpg" title="Graphic Design" />
+            <Image src="/img/iphone.jpg" title="Mobile App" />
+            <Image src="/img/headphone.jpg" title="Graphic Design" />
+            <Image src="/img/macbook1.jpg" title="Web Design" />
+            <Image src="/img/iphone11.jpg" title="Mobile App" />
+            <Image src="/img/macbook2.jpg" title="Web Design" />
           </ul>
 
           <Button primary bigSize>

@@ -1,7 +1,7 @@
 import React from "react";
 import { ClientStyles } from "./styles/ClientStyles";
 
-const Client = ({ name, regency, rating }) => {
+const Client = ({ src, name, regency, rating }) => {
   const countRating = parseInt(rating);
   let element = "";
 
@@ -17,7 +17,7 @@ const Client = ({ name, regency, rating }) => {
     <ClientStyles>
       <div className="client">
         <div className="client__user center">
-          <img src="/avatar.jpg" alt="avatar" className="client__avatar" />
+          <img src={src} alt="avatar" className="client__avatar" />
           <div className="client__card">
             <div className="client__info">
               <span className="client__name">{name}</span>

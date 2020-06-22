@@ -6,14 +6,14 @@ import Client from "./shared/Client";
 import Slider from "react-slick";
 import styled from "styled-components";
 
-const Testimonial = () => {
-  const CustomDot = styled.div`
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    background-color: var(--gray-color);
-  `;
+const CustomDot = styled.div`
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--gray-color);
+`;
 
+const Testimonial = () => {
   const settings = {
     arrows: false,
     dots: true,
@@ -31,12 +31,42 @@ const Testimonial = () => {
           <Heading text="Testimonial" title="My Client Saying" center />
           <ul className="testimonial__list">
             <Slider {...settings}>
-              <Client name="Raul K.Smith" regency="Client" rating="4" />
-              <Client name="Asib Uz Zaman" regency="Client" rating="5" />
-              <Client name="Cristiano Ronaldo" regency="Client" rating="4" />
-              <Client name="Lionel Messi" regency="Client" rating="3" />
-              <Client name="Wayne Rooney" regency="Client" rating="1" />
-              <Client name="Ricardo Kaka" regency="Client" rating="0" />
+              <Client
+                src="/img/avatar1.jpg"
+                name="Raul K.Smith"
+                regency="Client"
+                rating="4"
+              />
+              <Client
+                src="/img/avatar2.jpg"
+                name="Asib Uz Zaman"
+                regency="Client"
+                rating="5"
+              />
+              <Client
+                src="/img/avatar3.jpg"
+                name="Cristiano Ronaldo"
+                regency="Client"
+                rating="4"
+              />
+              <Client
+                src="/img/avatar4.jpeg"
+                name="Lionel Messi"
+                regency="Client"
+                rating="3"
+              />
+              <Client
+                src="/img/avatar5.jpg"
+                name="Wayne Rooney"
+                regency="Client"
+                rating="1"
+              />
+              <Client
+                src="/img/avatar6.jpg"
+                name="Ricardo Kaka"
+                regency="Client"
+                rating="0"
+              />
             </Slider>
           </ul>
         </Container>

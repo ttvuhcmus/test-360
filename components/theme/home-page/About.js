@@ -10,7 +10,7 @@ const About = () => {
         <Container>
           <div className="about-image center">
             <img
-              src="/about.jpg"
+              src="/img/about.jpg"
               alt="picture"
               className="about-image__avatar"
             />
@@ -18,9 +18,6 @@ const About = () => {
           <div className="about-content">
             <div className="heading">
               <Heading text="My Intro" title="About Me"></Heading>
-
-              {/* <h3 className="heading__intro">My Intro</h3>
-              <h2 className="heading__title">About Me</h2> */}
               <p className="heading__description">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae
                 architecto quia maiores sint delectus voluptates molestias

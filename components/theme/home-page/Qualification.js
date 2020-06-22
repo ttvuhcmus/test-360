@@ -52,8 +52,7 @@ const Qualification = () => {
 
             <div className="qualification__list">
               <h4 className="qualification__heading">
-                <i className="fas fa-graduation-cap"></i>
-                Experience
+                <i className="fas fa-briefcase"></i> Experience
               </h4>
 
               <div className="qualification__item">

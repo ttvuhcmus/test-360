@@ -22,7 +22,7 @@ const Specialized = () => {
             </li>
             <li className="specialized__item">
               <div className="specialized__icon center">
-                <i className="fas fa-tag n"></i>
+                <i className="fas fa-volume-up"></i>
               </div>
               <h6 className="specialized__title">Facebook Marketing</h6>
               <p className="specialized__text">
@@ -32,7 +32,7 @@ const Specialized = () => {
             </li>
             <li className="specialized__item">
               <div className="specialized__icon center">
-                <i className="fas fa-tag n"></i>
+                <i className="fab fa-youtube"></i>
               </div>
               <h6 className="specialized__title">Youtube Marketing</h6>
               <p className="specialized__text">
@@ -43,7 +43,7 @@ const Specialized = () => {
 
             <li className="specialized__item">
               <div className="specialized__icon center">
-                <i className="fas fa-tag n"></i>
+                <i className="fas fa-pencil-alt"></i>
               </div>
               <h6 className="specialized__title">Content Writing</h6>
               <p className="specialized__text">
@@ -53,7 +53,7 @@ const Specialized = () => {
             </li>
             <li className="specialized__item">
               <div className="specialized__icon center">
-                <i className="fas fa-tag n"></i>
+                <i className="fas fa-carrot"></i>
               </div>
               <h6 className="specialized__title">Web Design</h6>
               <p className="specialized__text">
@@ -63,7 +63,7 @@ const Specialized = () => {
             </li>
             <li className="specialized__item">
               <div className="specialized__icon center">
-                <i className="fas fa-tag n"></i>
+                <i className="fas fa-balance-scale"></i>
               </div>
               <h6 className="specialized__title">Design Graphic</h6>
               <p className="specialized__text">

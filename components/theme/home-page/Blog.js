@@ -12,17 +12,17 @@ const Blog = () => {
           <Heading text="Blog" title="Latest Updates" center></Heading>
           <ul className="blog__list">
             <Post
-              src="laptop.jpg"
+              src="/img/laptop.jpg"
               date="01 JAN 2020"
               text="Forfeited you engrossed but gay some"
             />
             <Post
-              src="iphonex.jpg"
+              src="/img/iphonex.jpg"
               date="01 JAN 2020"
               text="Forfeited you engrossed but gay some"
             />
             <Post
-              src="mobile.jpg"
+              src="/img/mobile.jpg"
               date="01 JAN 2020"
               text="Forfeited you engrossed but gay some"
             />

@@ -36,5 +36,9 @@ export const FooterStyles = styled.div`
       margin: 0 10px;
       cursor: pointer;
     }
+
+    &__link {
+      color: var(--light-color);
+    }
   }
 `;

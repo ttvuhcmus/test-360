@@ -19,9 +19,9 @@ export const TestimonialStyles = styled.div`
     }
   }
 
-  .slick-slide.slick-current + div {
+  .slick-slide {
     .client {
-      margin-left: auto;
+      margin: 0 auto;
     }
   }
 `;

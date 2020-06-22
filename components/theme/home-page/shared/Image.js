@@ -5,7 +5,7 @@ const Image = ({ src, title }) => {
   return (
     <ImageStyles>
       <div className="image">
-        <img src={"/" + src} alt="picture" className="image__item" />
+        <img src={src} alt="picture" className="image__item" />
       </div>
       <div className="hover">
         <div className="hover__list-icon">
