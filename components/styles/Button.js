@@ -9,6 +9,17 @@ export const Button = styled.button`
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
+  transition: all 0.25s linear;
+
+  :hover {
+    transform: rotateX(15deg);
+    box-shadow: #bd7c1d 0 4px 0 0;
+  }
+
+  :active {
+    box-shadow: red 0 0 0 0;
+    transform: translateY(4px);
+  }
 
   ${(props) =>
     props.primary &&
@@ -44,4 +55,28 @@ export const Button = styled.button`
       width: 22rem;
       height: 6rem;
     `};
+
+  @media screen and (max-width: 1023px) {
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.5rem;
+
+    ${(props) =>
+      props.bigSize &&
+      css`
+        width: 12rem;
+      `};
+  }
+
+  @media screen and (max-width: 374px) {
+    width: 8rem;
+    height: 3rem;
+    font-size: 1rem;
+
+    ${(props) =>
+      props.bigSize &&
+      css`
+        width: 10rem;
+      `};
+  }
 `;

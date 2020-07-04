@@ -1,7 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const Container = styled.div`
-  width: 111rem;
+  max-width: 111rem;
+  width: 100%;
   margin: 0 auto;
   display: flex;
 
@@ -17,4 +18,9 @@ export const Container = styled.div`
     css`
       flex-direction: column;
     `}
+
+
+    @media screen and (max-width: 1439px) {
+    padding: 2rem;
+  }
 `;

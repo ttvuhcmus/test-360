@@ -22,6 +22,16 @@ const Testimonial = () => {
     slidesToShow: 2,
     slidesToScroll: 2,
     customPaging: () => <CustomDot></CustomDot>,
+
+    responsive: [
+      {
+        breakpoint: 374,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (

@@ -23,4 +23,43 @@ export const HeadingStyles = styled.div`
         align-items: center;
       `}
   }
+
+  @media screen and (max-width: 1023px) {
+    .heading {
+      &__text {
+        font-size: 2.5rem;
+      }
+
+      &__title {
+        font-size: 4rem;
+        margin: 15px 0 20px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .heading {
+      &__text {
+        font-size: 2rem;
+      }
+
+      &__title {
+        font-size: 3rem;
+        margin: 10px 0 15px 0;
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .heading {
+      &__text {
+        font-size: 1.5rem;
+      }
+
+      &__title {
+        font-size: 2.5rem;
+        margin: 5px 0 10px 0;
+      }
+    }
+  }
 `;

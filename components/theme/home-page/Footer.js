@@ -34,7 +34,7 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <span>All Right Reserved by PixelsUi</span>
+          <span className="footer__note">All Right Reserved by PixelsUi</span>
         </Container>
       </div>
     </FooterStyles>

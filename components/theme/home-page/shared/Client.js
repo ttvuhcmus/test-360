@@ -16,7 +16,7 @@ const Client = ({ src, name, regency, rating }) => {
   return (
     <ClientStyles>
       <div className="client">
-        <div className="client__user center">
+        <div className="client__user">
           <img src={src} alt="avatar" className="client__avatar" />
           <div className="client__card">
             <div className="client__info">

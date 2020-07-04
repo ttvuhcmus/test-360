@@ -29,4 +29,45 @@ export const PortfolioStyles = styled.div`
       margin-bottom: 1rem;
     }
   }
+
+  @media screen and (max-width: 1023px) {
+    .portfolio {
+      height: 90rem;
+
+      .list-menu {
+        display: flex;
+        margin: 3rem 0 3.5rem 0;
+
+        &__item {
+          margin: 0 2rem;
+        }
+
+        &__link {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .portfolio {
+      height: 65rem;
+
+      .list-menu {
+        margin: 2rem 0 2.5rem 0;
+
+        &__item {
+          margin: 0 1rem;
+        }
+
+        &__link {
+          font-size: 1rem;
+        }
+      }
+
+      .list-image {
+        justify-content: space-around;
+      }
+    }
+  }
 `;

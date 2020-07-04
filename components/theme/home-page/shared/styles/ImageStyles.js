@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const ImageStyles = styled.li`
   position: relative;
+  width: 32%;
 
   .image {
-    width: 35rem;
     height: 30rem;
     margin-bottom: 30px;
 
@@ -17,10 +17,9 @@ export const ImageStyles = styled.li`
   }
 
   .hover {
-    width: 35rem;
+    width: 100%;
     height: 30rem;
     border-radius: 10px;
-    margin-bottom: 30px;
     background-color: var(--opacity-primary-color);
     position: absolute;
     top: 0;
@@ -43,10 +42,34 @@ export const ImageStyles = styled.li`
     &__icon {
       background-color: var(--light-color);
       color: var(--secondary-color);
-      font-size: 3rem;
       padding: 0.5rem;
+      font-size: 3rem;
       border-radius: 5px;
       cursor: pointer;
+      transition: all 0.25 s linear;
+      position: relative;
+
+      &:first-child:hover {
+        color: #17aa56;
+        animation: pulse 1s ease infinite;
+      }
+
+      &:last-child:hover {
+        color: #ea515e;
+        animation: pulse 1s ease infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.3);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
     }
 
     &__title {
@@ -57,5 +80,55 @@ export const ImageStyles = styled.li`
 
   .hover:hover {
     opacity: 1;
+  }
+
+  @media screen and (max-width: 1023px) {
+    .image {
+      height: 22rem;
+      margin-bottom: 25px;
+    }
+
+    .hover {
+      height: 22rem;
+
+      &__list-icon {
+        width: 9rem;
+        margin-bottom: 1rem;
+      }
+
+      &__icon {
+        font-size: 2.5rem;
+      }
+
+      &__title {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    width: 45%;
+
+    .image {
+      height: 12rem;
+      margin-bottom: 15px;
+    }
+
+    .hover {
+      height: 12rem;
+
+      &__list-icon {
+        width: 6rem;
+        margin-bottom: 1rem;
+      }
+
+      &__icon {
+        font-size: 1.5rem;
+      }
+
+      &__title {
+        font-size: 1.5rem;
+      }
+    }
   }
 `;

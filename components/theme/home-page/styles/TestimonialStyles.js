@@ -24,4 +24,38 @@ export const TestimonialStyles = styled.div`
       margin: 0 auto;
     }
   }
+
+  @media screen and (max-width: 1023px) {
+    .testimonial {
+      height: 60rem;
+    }
+
+    .slick-dots {
+      li {
+        margin: 0 2px;
+
+        div {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .testimonial {
+      height: 40rem;
+    }
+
+    .slick-dots {
+      li {
+        margin: 0 2px;
+
+        div {
+          width: 1rem;
+          height: 1rem;
+        }
+      }
+    }
+  }
 `;

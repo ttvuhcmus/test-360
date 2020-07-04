@@ -16,4 +16,21 @@ export const ExpertiseStyles = styled.div`
       justify-content: space-between;
     }
   }
+
+  @media screen and (max-width: 1023px) {
+    .expertise {
+      height: 60rem;
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .expertise {
+      height: 40rem;
+
+      &__list {
+        margin: 15px 0;
+        font-size: 1rem;
+      }
+    }
+  }
 `;

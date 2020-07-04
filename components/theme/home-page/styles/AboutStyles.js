@@ -64,6 +64,16 @@ export const AboutStyles = styled.div`
       &__icon {
         font-size: 2.5rem;
         color: var(--primary-color);
+
+        i {
+          transition: all 0.25s linear;
+        }
+
+        &:hover {
+          i {
+            transform: scale(1.3) skew(10deg);
+          }
+        }
       }
 
       &__topic {
@@ -93,7 +103,15 @@ export const AboutStyles = styled.div`
       }
 
       &__item {
-        margin-right: 4rem;
+        i {
+          transition: all 0.25s linear;
+        }
+
+        &:hover {
+          i {
+            transform: scale(1.3) skew(-5deg);
+          }
+        }
       }
 
       &__icon {
@@ -103,6 +121,140 @@ export const AboutStyles = styled.div`
       }
       &__text {
         font-weight: bold;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .about {
+      height: 75rem;
+    }
+    .about-image {
+      height: 50rem;
+    }
+
+    .about-content {
+      .heading {
+        &__description {
+          font-size: 1.5rem;
+        }
+      }
+      .contact {
+        font-size: 1.5rem;
+        margin: 2rem 0;
+
+        &__icon {
+          font-size: 2rem;
+        }
+
+        &__topic {
+          padding: 1rem 0 1rem 0;
+        }
+      }
+
+      .interests {
+        &__icon {
+          font-size: 3rem;
+          margin-right: 0.5rem;
+        }
+
+        &__text {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .about {
+      height: 75rem;
+    }
+    .about-image {
+      height: 40rem;
+    }
+
+    .about-content {
+      .heading {
+        &__description {
+          font-size: 1rem;
+        }
+      }
+      .contact {
+        font-size: 1rem;
+        margin: 1rem 0;
+
+        &__icon {
+          font-size: 1.5rem;
+        }
+
+        &__topic {
+          padding: 1rem 0 1rem 0;
+        }
+      }
+
+      .interests {
+        &__title {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        &__icon {
+          font-size: 2rem;
+          margin-right: 0.5rem;
+        }
+
+        &__text {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .about {
+      height: 40rem;
+    }
+    .about-image {
+      height: 20rem;
+    }
+
+    .about-content {
+      padding-left: 2rem;
+
+      .heading {
+        &__description {
+          font-size: 0.75rem;
+        }
+      }
+      .contact {
+        font-size: 0.75rem;
+
+        &__icon {
+          font-size: 1rem;
+        }
+
+        &__description {
+          padding-left: 1rem;
+        }
+
+        &__topic {
+          width: 3rem;
+          padding: 0.5rem 0;
+        }
+      }
+
+      .interests {
+        &__title {
+          font-size: 1.5rem;
+        }
+
+        &__icon {
+          font-size: 1.5rem;
+        }
+
+        &__text {
+          font-size: 0.75rem;
+        }
       }
     }
   }

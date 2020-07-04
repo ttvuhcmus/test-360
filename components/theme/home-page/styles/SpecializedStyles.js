@@ -2,19 +2,15 @@ import styled from "styled-components";
 
 export const SpecializedStyles = styled.div`
   .specialized {
-    &__list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-
     &__item {
       border: 1px solid var(--gray-color);
-      width: 25%;
+      width: 95% !important;
       position: relative;
       padding: 7rem 3.5rem 3rem;
       border-top-right-radius: 75px;
       margin: 5rem 0 8.5rem;
+      transition: all 0.25s linear;
+      outline: none;
     }
 
     &__icon {
@@ -28,6 +24,7 @@ export const SpecializedStyles = styled.div`
       top: 0;
       left: 4rem;
       transform: translateY(-50%);
+      transition: all 0.5s linear;
     }
 
     &__title {
@@ -55,6 +52,53 @@ export const SpecializedStyles = styled.div`
 
     .specialized__title {
       color: var(--light-color);
+    }
+  }
+
+  @media screen and (max-width: 1023px) {
+    .specialized {
+      &__item {
+        padding: 6rem 2rem 3rem;
+        margin: 5rem 0 6rem;
+      }
+
+      &__icon {
+        font-size: 3rem;
+        width: 6rem;
+        height: 6rem;
+      }
+
+      &__title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+      }
+
+      &__text {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    .specialized {
+      &__item {
+        width: 80% !important;
+        margin: 5rem 0 6rem 2.5rem;
+      }
+
+      &__icon {
+        font-size: 3rem;
+        width: 5rem;
+        height: 5rem;
+      }
+
+      &__title {
+        font-size: 1.75rem;
+      }
+
+      &__text {
+        font-size: 1.25rem;
+      }
     }
   }
 `;
