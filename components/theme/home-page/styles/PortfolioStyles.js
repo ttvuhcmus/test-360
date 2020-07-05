@@ -49,7 +49,7 @@ export const PortfolioStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 424px) {
     .portfolio {
       height: 65rem;
 
@@ -57,7 +57,7 @@ export const PortfolioStyles = styled.div`
         margin: 2rem 0 2.5rem 0;
 
         &__item {
-          margin: 0 1rem;
+          margin: 0 0.5rem;
         }
 
         &__link {

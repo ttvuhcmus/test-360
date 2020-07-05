@@ -1,7 +1,7 @@
 import React from "react";
 import { ContactStyles } from "./styles/ContactStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
+import Heading from "./base/Heading";
 import { Button } from "../../styles/Button";
 
 const Contact = () => {

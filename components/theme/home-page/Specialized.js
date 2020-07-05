@@ -1,8 +1,9 @@
 import React from "react";
 import { SpecializedStyles } from "./styles/SpecializedStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
+import Heading from "./base/Heading";
 import Slider from "react-slick";
+import Card from "./base/Card";
 
 const Specialized = () => {
   const settings = {
@@ -21,7 +22,7 @@ const Specialized = () => {
         },
       },
       {
-        breakpoint: 374,
+        breakpoint: 424,
         settings: {
           arrows: false,
           infinite: true,
@@ -41,66 +42,36 @@ const Specialized = () => {
           <Heading text="Specialized In" title="What I Offer" center />
           <ul className="specialized__list">
             <Slider {...settings}>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fas fa-tag n"></i>
-                </div>
-                <h6 className="specialized__title">SEO</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fas fa-volume-up"></i>
-                </div>
-                <h6 className="specialized__title">Facebook Marketing</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fab fa-youtube"></i>
-                </div>
-                <h6 className="specialized__title">Youtube Marketing</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fas fa-pencil-alt"></i>
-                </div>
-                <h6 className="specialized__title">Content Writing</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fas fa-carrot"></i>
-                </div>
-                <h6 className="specialized__title">Web Design</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
-              <li className="specialized__item">
-                <div className="specialized__icon center">
-                  <i className="fas fa-balance-scale"></i>
-                </div>
-                <h6 className="specialized__title">Design Graphic</h6>
-                <p className="specialized__text">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus corrupti aut.
-                </p>
-              </li>
+              <Card
+                icon='<i class="fas fa-volume-up"></i>'
+                title="SEO"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
+              <Card
+                icon='<i class="fas fa-tag n"></i>'
+                title="Facebook Marketing"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
+              <Card
+                icon='<i class="fab fa-youtube"></i>'
+                title="Youtube Marketing"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
+              <Card
+                icon='<i class="fas fa-pencil-alt"></i>'
+                title="Content Writing"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
+              <Card
+                icon='<i class="fas fa-carrot"></i>'
+                title="Web Design"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
+              <Card
+                icon='<i class="fas fa-balance-scale"></i>'
+                title="Design Graphic"
+                text="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus corrupti aut."
+              ></Card>
             </Slider>
           </ul>
         </Container>

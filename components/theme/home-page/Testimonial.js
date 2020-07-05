@@ -1,8 +1,8 @@
 import React from "react";
 import { TestimonialStyles } from "./styles/TestimonialStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
-import Client from "./shared/Client";
+import Heading from "./base/Heading";
+import Client from "./base/Client";
 import Slider from "react-slick";
 import styled from "styled-components";
 
@@ -25,7 +25,7 @@ const Testimonial = () => {
 
     responsive: [
       {
-        breakpoint: 374,
+        breakpoint: 424,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

@@ -1,8 +1,8 @@
 import React from "react";
 import { ExpertiseStyles } from "./styles/ExpertiseStyles";
 import { Container } from "../../styles/Container";
-import Progress from "./shared/Progress";
-import Heading from "./shared/Heading";
+import Progress from "./base/Progress";
+import Heading from "./base/Heading";
 
 const Expertise = () => {
   return (

@@ -74,7 +74,36 @@ export const FooterStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 767px) {
+    .footer {
+      &__image {
+        width: 80px;
+        height: 80px;
+      }
+
+      &__list-icon {
+        display: flex;
+        margin-bottom: 5rem;
+      }
+
+      &__item {
+        width: 2rem;
+        height: 2rem;
+        margin: 0 8px;
+        font-size: 1.5rem;
+      }
+
+      &__text {
+        padding: 0 10rem;
+      }
+
+      &__note {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 424px) {
     .footer {
       height: 25rem;
 

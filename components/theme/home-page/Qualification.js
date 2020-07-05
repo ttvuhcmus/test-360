@@ -1,7 +1,7 @@
 import React from "react";
 import { QualificationStyles } from "./styles/QualificationStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
+import Heading from "./base/Heading";
 
 const Qualification = () => {
   return (

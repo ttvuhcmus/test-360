@@ -154,7 +154,28 @@ export const ContactStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 767px) {
+    .contact {
+      &__info {
+        padding-left: 1.5rem;
+      }
+
+      &__icon {
+        width: 3rem;
+        height: 3rem;
+      }
+
+      &__card {
+        margin: 0 1rem;
+      }
+
+      &__topic {
+        margin-bottom: 0.5rem;
+      }
+    }
+  }
+
+  @media screen and (max-width: 424px) {
     .contact {
       height: 35rem;
 

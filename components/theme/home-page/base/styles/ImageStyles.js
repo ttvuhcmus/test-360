@@ -106,7 +106,7 @@ export const ImageStyles = styled.li`
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 424px) {
     width: 45%;
 
     .image {

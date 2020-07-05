@@ -94,32 +94,6 @@ export const NavStyles = styled.div`
     }
   }
 
-  .afterBackground {
-    transform: scale(50);
-  }
-  .afterButton {
-    /* position: absolute;
-    top: 0;
-    right: 0; */
-    background-color: var(--secondary-color);
-
-    .nav__icon {
-      & {
-        background-color: transparent;
-      }
-
-      &::after {
-        top: 0;
-        transform: rotate(135deg);
-      }
-
-      &::before {
-        top: 0;
-        transform: rotate(-135deg);
-      }
-    }
-  }
-
   @media screen and (max-width: 1023px) {
     .nav {
       height: 12.5rem;
@@ -162,6 +136,30 @@ export const NavStyles = styled.div`
     }
   }
 
+  .afterBackground {
+    transform: scale(100);
+  }
+
+  .afterButton {
+    background-color: var(--secondary-color);
+
+    .nav__icon {
+      & {
+        background-color: transparent;
+      }
+
+      &::after {
+        top: 0;
+        transform: rotate(135deg);
+      }
+
+      &::before {
+        top: 0;
+        transform: rotate(-135deg);
+      }
+    }
+  }
+
   .afterMenu {
     display: auto;
     position: absolute;
@@ -181,12 +179,35 @@ export const NavStyles = styled.div`
     }
 
     .nav__link {
-      font-size: 2.5rem;
       text-transform: uppercase;
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @keyframes moveLeft {
+    0% {
+      transform: translateX(-100rem);
+    }
+    80% {
+      transform: translateX(10rem);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  @keyframes moveRight {
+    0% {
+      transform: translateX(10rem);
+    }
+    20% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100rem);
+    }
+  }
+
+  @media screen and (max-width: 424px) {
     .nav {
       height: 8rem;
 
@@ -225,30 +246,6 @@ export const NavStyles = styled.div`
       &__link {
         font-size: 1.5rem;
       }
-    }
-  }
-
-  @keyframes moveLeft {
-    0% {
-      transform: translateX(-100rem);
-    }
-    80% {
-      transform: translateX(10rem);
-    }
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-  @keyframes moveRight {
-    0% {
-      transform: translateX(10rem);
-    }
-    20% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100rem);
     }
   }
 `;

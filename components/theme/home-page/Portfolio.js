@@ -1,9 +1,9 @@
 import React from "react";
 import { PortfolioStyles } from "./styles/PortfolioStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
+import Heading from "./base/Heading";
 import { Button } from "../../styles/Button";
-import Image from "./shared/Image";
+import Image from "./base/Image";
 
 const Portfolio = () => {
   return (

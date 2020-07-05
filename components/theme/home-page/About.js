@@ -1,7 +1,7 @@
 import React from "react";
 import { AboutStyles } from "./styles/AboutStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
+import Heading from "./base/Heading";
 
 const About = () => {
   return (

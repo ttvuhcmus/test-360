@@ -1,8 +1,8 @@
 import React from "react";
 import { BlogStyles } from "./styles/BlogStyles";
 import { Container } from "../../styles/Container";
-import Heading from "./shared/Heading";
-import Post from "./shared/Post";
+import Heading from "./base/Heading";
+import Post from "./base/Post";
 import Slider from "react-slick";
 
 const Blog = () => {
@@ -13,7 +13,7 @@ const Blog = () => {
 
     responsive: [
       {
-        breakpoint: 374,
+        breakpoint: 424,
         settings: {
           arrows: false,
           infinite: true,

@@ -15,7 +15,7 @@ export const BlogStyles = styled.div`
       height: 70rem;
     }
   }
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 424px) {
     .blog {
       height: 40rem;
 
