@@ -254,7 +254,7 @@ export const InfoStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .info {
       height: 45rem;
 

@@ -23,7 +23,7 @@ export const ExpertiseStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .expertise {
       height: 40rem;
 

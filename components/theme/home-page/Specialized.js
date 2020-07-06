@@ -22,7 +22,7 @@ const Specialized = () => {
         },
       },
       {
-        breakpoint: 424,
+        breakpoint: 360,
         settings: {
           arrows: false,
           infinite: true,

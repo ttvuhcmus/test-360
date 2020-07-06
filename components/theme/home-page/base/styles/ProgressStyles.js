@@ -57,7 +57,7 @@ export const ProgressStyles = styled.li`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .progress {
       margin-bottom: 20px;
 

@@ -25,7 +25,7 @@ const Testimonial = () => {
 
     responsive: [
       {
-        breakpoint: 424,
+        breakpoint: 360,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,

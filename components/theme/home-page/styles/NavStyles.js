@@ -207,7 +207,7 @@ export const NavStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .nav {
       height: 8rem;
 

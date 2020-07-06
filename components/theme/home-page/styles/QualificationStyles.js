@@ -125,7 +125,7 @@ export const QualificationStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .qualification {
       height: 45rem;
 

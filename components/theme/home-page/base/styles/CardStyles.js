@@ -75,7 +75,7 @@ export const CardStyles = styled.li`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     width: 80% !important;
     margin: 5rem 0 6rem 2.5rem;
 

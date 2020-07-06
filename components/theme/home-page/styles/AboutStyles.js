@@ -210,7 +210,7 @@ export const AboutStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .about {
       height: 40rem;
     }

@@ -49,7 +49,7 @@ export const PortfolioStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     .portfolio {
       height: 65rem;
 

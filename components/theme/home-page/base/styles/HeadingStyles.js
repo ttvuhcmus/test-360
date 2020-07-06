@@ -50,7 +50,7 @@ export const HeadingStyles = styled.div`
     }
   }
 
-  @media screen and (max-width: 374px) {
+  @media screen and (max-width: 360px) {
     .heading {
       &__text {
         font-size: 1.5rem;

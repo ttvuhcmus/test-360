@@ -58,7 +58,7 @@ export const PostStyles = styled.li`
     }
   }
 
-  @media screen and (max-width: 424px) {
+  @media screen and (max-width: 360px) {
     width: 70%;
 
     .post {
